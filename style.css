@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+
+*{
+    margin: 0px;
+    font-family: "Tauri";
+}
+
+body{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F396542.jpg&f=1&nofb=1&ipt=9e734d815c0f8b14a998930e90125419787b0a9d020d7be9a6a3414de74d6d7b&ipo=images");
+    background-size: cover;
+}
+
+.mainContainer{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.mainContainer img{
+    margin-top: 40px;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.mainContainer p{
+    text-shadow: 0px 0px 4px white;
+    font-size: 30px;
+}
+
+.mainContainer button{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 10px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0;
+    background-color: white;
+}
